@@ -1,0 +1,10 @@
+top - 13:16:04 up 15 min,  1 user,  load average: 0,02, 0,24, 0,25
+Задачи: 221 total,   1 running, 219 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  0,2 us,  0,9 sy,  0,0 ni, 98,4 id,  0,2 wa,  0,0 hi,  0,2 si,  0,0 st 
+МиБ Mem :   7424,1 total,   3938,3 free,   1803,8 used,   1993,7 buff/cache     
+МиБ Swap:   4096,0 total,   4096,0 free,      0,0 used.   5620,3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+
+   2794 miniv     20   0 5093480 400784 201704 S  16,7   5,3   0:57.79
+   4840 miniv     20   0   10860   5936   3872 R   8,3   0,1   0:00.01
+      1 root      20   0   25784  17016  11724 S   0,0   0,2   0:02.28
