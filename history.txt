@@ -1,0 +1,91 @@
+    1  uname -a
+    2  sudo apt update && sudo apt upgrade -y
+    3  cat /etc/apt/sources.list /etc/apt/sources.list.d/*.list 2>/dev/null
+    4  sudo apt install -y vim
+    5  cd ~
+    6  cd ~/Downloads
+    7  man ls
+    8  ls -l
+    9  dpkg -i test.deb
+   10  sudo dpkg -i test.deb
+   11  cd /
+   12  sudo -i
+   13  exit
+   14  echo "hi all"
+   15  echo "${PWD} hi all here!"
+   16  touch hi.sh
+   17  echo $PATH
+   18  vi hi.sh
+   19  ./hi.sh
+   20  chmod a+x hi.sh
+   21  chmod 777 hi.sh
+   22  ./hi.sh
+   23  ./hi.sh Ukraine
+   24  cp hi.sh scripts/
+   25  cp scripts Documents/
+   26  cp -r scripts ~/Documents/
+   27  cd scripts
+   28  mv hi.sh ..
+   29  cd ..
+   30  rm scripts
+   31  rm -r scripts
+   32  cd /bin
+   33  ls -l
+   34  cd ../..
+   35  tar -cvzf scripts.tar.gz scripts
+   36  cat hi.sh
+   37  cat /var/log/syslog
+   38  tail -n 20 /var/log/syslog
+   39  less /var/log/syslog
+   40  cd /
+   41  find . -name "dhcp" 2>/dev/null
+   42  find . -name "*dhcp*" 2>/dev/null
+   43  find . -name "*dhcp*" 2>/dev/null | grep -i --color=always "dhcp"
+   44  find . -name "*dhcp*" 2>/dev/null | grep -i --color=always "etc"
+   45  ping -c 4 google.com
+   46  ping -c 4 google.com > ping_log.txt 2>&1 & date
+   47  sudo ping -c 4 google.com
+   48  totem &
+   49  ls -l
+   50  cd /bin
+   51  ls -la
+   52  echo $PATH
+   53  env
+   54  whoami
+   55  cd /etc/
+   56  ls -la
+   57  cd ..
+   58  cd /lib
+   59  ls -la
+   60  dmesg
+   61  sudo dmesg
+   62  ls -la /dev
+   63  sudo dmesg -c > /dev/null
+   64  sudo dmesg | tail -n 20
+   65  df -h
+   66  cd /home
+   67  ls -l
+   68  lsmod
+   69  cd /proc
+   70  cat cpuinfo
+   71  echo 1 > /proc/sys/net/ipv4/ip_forward
+   72  sudo echo 1 > /proc/sys/net/ipv4/ip_forward
+   73  sudo -i'
+   74  ip addr
+   75  ip link show
+   76  cd ~
+   77  echo "vika" > 1.txt
+   78  cat 1.txt
+   79  echo "vasya" > 2.txt
+   80  cat 2.txt
+   81  diff 1.txt 2.txt
+   82  history
+   83  lspci
+   84  history > history.txt
+   85  fg
+   86  ps aux | grep ping
+   87  kill -15 12064
+   88  pgrep -a ping
+   89  kill 13235
+   90  sudo kill -9 13235
+   91  sudo killall vlc
